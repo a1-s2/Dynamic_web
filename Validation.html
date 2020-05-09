@@ -1,0 +1,19 @@
+<html>
+<script>
+          function call()
+          {
+          if(frm.uId.value==0)
+          alert("id is required");
+          if(frm.pass.value==0)
+          alert("password is required");
+}
+</script>
+<body>
+
+<form name="frm">
+ID<input type=text name="uid">
+Password<input type=password name="pass">
+<input type=submit value="Login" onClick="call()">          
+</form>
+</body>
+</html>
